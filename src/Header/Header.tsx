@@ -1,7 +1,10 @@
+import { IconAsset, IconBinocularsFilled } from "@tabler/icons-react";
+
 const Header =()=>{
 return <div className="w-full bg-black px-6 text-white h-28 flex justify-between items-center">
-    <div>
-        logo
+    <div className="flex gap-3">
+        <IconBinocularsFilled/>
+        Opportune
     </div>
     <div>
         links
