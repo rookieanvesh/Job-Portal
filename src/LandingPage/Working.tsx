@@ -1,3 +1,4 @@
+import { Avatar } from "@mantine/core";
 import { work } from "../Data/Data"
 
 const Working=()=>{
@@ -8,6 +9,9 @@ const Working=()=>{
     <div className="flex px-16 justify-between items-center">
         <div className=""> 
             <img className="w-[25rem]" src="/Working/boy.png" alt="girl" />
+            <div>
+            <Avatar className="!h-16 !w-16" src="avatar2.png" alt="it's me" />
+            </div>
         </div>
         <div className="flex flex-col gap-10">
             {
