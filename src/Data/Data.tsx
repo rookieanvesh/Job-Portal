@@ -57,20 +57,18 @@ const work = [
   },
   {
     name: "Apply for Job",
-    desc: "Find and apply for jobs that match your skills.",
-  },
+    desc: "Find and apply for jobs that match your skills.",  },
   {
     name: "Get Hired",
-    desc: "Connect with employers and start your new job.",
-  },
-  {
-    name: "Prepare for Interview",
-    desc: "Research the company and practice common questions.",
-  },
-  {
-    name: "Follow Up",
-    desc: "Send a thank you note and inquire about next steps.",
-  },
+    desc: "Connect with employers and start your new job.",  }
+  // {
+  //   name: "Prepare for Interview",
+  //   desc: "Research the company and practice common questions.",
+  // },
+  // {
+  //   name: "Follow Up",
+  //   desc: "Send a thank you note and inquire about next steps.",
+  // },
 ];
 
 const testimonials = [
