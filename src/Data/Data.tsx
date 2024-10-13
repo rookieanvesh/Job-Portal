@@ -73,20 +73,25 @@ const work = [
 
 const testimonials = [
   {
-    name: "John Doe",
+    name: "Ethan Dolan",
     testimonial: "This platform helped me land my dream job at Google!",
     rating: 5,
   },
   {
-    name: "Jane Smith",
-    testimonial: "The resume builder tool was incredibly helpful. Highly recommend!",
-    rating: 4.5,
+    name: "Tanisha Rashinkar",
+    testimonial: "I was impressed with the quality of job postings. Found my dream job!",
+    rating: 4.7,
   },
   {
     name: "Mike Johnson",
     testimonial: "Great resource for job seekers. Found my current role through this site.",
     rating: 5,
   },
+  {
+    name: "Rudransh Sharma",
+    testimonial: "I was able to find a job that matched my skills. Thanks!",
+    rating: 4,
+  }
 ];
 
 export { companies, jobCategories, work, testimonials};
