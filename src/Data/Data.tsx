@@ -93,8 +93,22 @@ const testimonials = [
     rating: 4,
   }
 ];
+const footerLinks = [
+  {
+    title: "Product",
+    links: ["Find Job", "Find Company", "Find Employee"]
+  },
+  {
+    title: "Company",
+    links: ["About Us", "Contact Us", "Privacy Policy", "Terms & Conditions"]
+  },
+  {
+    title: "Support",
+    links: ["Help & Support", "Feedback", "FAQs"]
+  }
+];
 
-export { companies, jobCategories, work, testimonials};
+export { companies, jobCategories, work, testimonials, footerLinks};
 
 // Example usage:
 // const softwareEngineering = getJobInfo("Software Engineering");
