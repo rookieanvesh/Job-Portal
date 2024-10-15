@@ -2,7 +2,7 @@ import { IconBrandFacebook, IconBrandFacebookFilled, IconBrandGithub, IconBrandI
 import { footerLinks } from "../Data/Data";
 
 const Footer = () => {
-    return <div className="mb-20 pb-5 flex gap-5 justify-around">
+    return <div className="pt-20 pb-5 flex gap-5 justify-around bg-woodsmoke-950 font-['Roboto']">
         <div className="w-1/4 flex flex-col gap-4">
         <div className="flex gap-1 items-center text-coral-red-500">
         <IconUserScan className="h-6 w-6 mt-5" />

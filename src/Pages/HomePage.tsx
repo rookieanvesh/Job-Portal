@@ -10,14 +10,12 @@ import Working from "../LandingPage/Working"
 const HomePage = () => {
     return (
         <div className="min-h-[100vh] bg-woodsmoke-950 font-['Roboto']">
-            <Header/>
             <DreamJob/>
             <Companies/>
             <JobCategory/>
             <Working/>
             <Testimonials/>
             <Subscribe/>
-            <Footer/>
         </div>
     )
 }

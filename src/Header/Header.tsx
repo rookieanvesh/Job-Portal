@@ -3,7 +3,7 @@ import { IconAdjustments, IconAsset, IconBellFilled, IconBellPlus, IconBinocular
 import NavLinks from "./NavLinks";
 
 const Header =()=>{
-return <div className="w-full bg-woodsmoke-950 px-6 text-white h-20 flex justify-between items-center">
+return <div className="w-full bg-woodsmoke-950 font-['Roboto'] px-6 text-white h-20 flex justify-between items-center">
     <div className="flex gap-1 items-center text-coral-red-500">
         <IconUserScan className="h-10 w-10 " />
         <div className="text-3xl font-semibold">WorkWatch</div>

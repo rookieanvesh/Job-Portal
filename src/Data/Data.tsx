@@ -1,5 +1,5 @@
 const companies = ["Google", "Amazon", "Zomato", "Netflix", "Meta", "Ibm",
-  "Jio", "Flipkart", "Microsoft", "Pinterest", "abnb", "Spotify", "Oracle", "salesforce", "Uber", "adobe"
+  "Jio", "Flipkart", "Microsoft", "Pinterest", "abnb", "Spotify", "Oracle", "salesforce", "Uber", "adobe","Apple"
 ];
 
 const jobCategories = [
