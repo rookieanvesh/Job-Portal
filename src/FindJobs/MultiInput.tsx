@@ -63,7 +63,7 @@ const MultiInput = (props: any) => {
       <Combobox.DropdownTarget>
         <PillsInput variant='unstyled' rightSection={<IconSelector />} onClick={() => combobox.toggleDropdown()}
             leftSection={
-                <div className="text-coral-red-500 p-1 bg-woodsmoke-900 rounded-full mr-2
+                <div className="text-coral-red-500 p-1 bg-woodsmoke-950 rounded-full mr-2
                 cursor-pointer"><props.icon/></div>
             }
             >
