@@ -1,6 +1,6 @@
 const companies = ["Google", "Amazon", "Zomato", "Netflix", "Meta", "Ibm",
   "Jio", "Flipkart", "Microsoft", "Pinterest", "abnb", "Spotify", "Oracle", "salesforce", "Uber", "adobe","Apple"
-];
+]
 
 const jobCategories = [
   {
@@ -109,13 +109,3 @@ const footerLinks = [
 ];
 
 export { companies, jobCategories, work, testimonials, footerLinks};
-
-// Example usage:
-// const softwareEngineering = getJobInfo("Software Engineering");
-// console.log(softwareEngineering);
-// 
-// // In a React component:
-// // <img className="h-8 w-8" src={`/Category/${softwareEngineering.name}.png`} alt={softwareEngineering.name} />
-// // <div className="text-woodsmoke-100 text-xl font-semibold">{softwareEngineering.name}</div>
-// // <div className="text-sm text-woodsmoke-300 text-center">{softwareEngineering.desc}</div>
-// // <div className="text-coral-red-300 text-lg">{softwareEngineering.jobs} new jobs posted</div>
