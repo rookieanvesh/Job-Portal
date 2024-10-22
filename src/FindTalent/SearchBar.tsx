@@ -1,7 +1,7 @@
 import { Divider, RangeSlider } from "@mantine/core";
-import { dropdownData } from "../Data/JobsData";
-import MultiInput from "./MultiInput";
 import { useState } from "react";
+import { dropdownData } from "../Data/JobsData";
+import MultiInput from "../FindJobs/MultiInput";
 
 const SearchBar = () => {
     const [value, setValue] = useState<[number, number]>([1,100]);

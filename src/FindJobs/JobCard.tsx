@@ -37,7 +37,7 @@ const JobCard = (props:any) => {
                 <IconClock className="h-5 w-5" stroke={1.5}/>{props.postedDaysAgo} days ago
             </div>
         </div>
-    </div>
+    </div> 
 
 }
 export default JobCard;
