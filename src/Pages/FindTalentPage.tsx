@@ -1,5 +1,6 @@
 import { Divider } from "@mantine/core"
-import SearchBar from "../FindJobs/SearchBar"
+import SearchBar from "../FindTalent/SearchBar"
+
 
 const FindTalentPage = () => {
     return (
