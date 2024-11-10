@@ -1,7 +1,7 @@
 import { Divider, RangeSlider } from "@mantine/core";
 import { useState } from "react";
-import { SearchBar } from "../FindTalent/SearchBar";
 import MultiInput from "../FindJobs/MultiInput";
+import { searchFields } from "../Data/TalentData";
 
 const SearchBar = () => {
     const [value, setValue] = useState<[number, number]>([1,100]);
@@ -9,7 +9,7 @@ const SearchBar = () => {
         {
             searchFields.map((item,index)=>{
             return<><div key={index} className="w-1/5">
-                <MultiInput {...item}/>
+                <MultiInput title={item.title} icon={item.icon} options={item.options}/>
             </div>
             <Divider mr="xs" size="xs" orientation="vertical" />
             </>
