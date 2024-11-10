@@ -1,6 +1,6 @@
 import { Divider, RangeSlider } from "@mantine/core";
 import { useState } from "react";
-import { searchFields } from "../FindTalent/SearchFields";
+import { SearchBar } from "../FindTalent/SearchBar";
 import MultiInput from "../FindJobs/MultiInput";
 
 const SearchBar = () => {
