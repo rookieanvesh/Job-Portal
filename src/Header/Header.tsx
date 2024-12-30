@@ -16,7 +16,6 @@ return <div className="w-full bg-woodsmoke-950 font-['Roboto'] px-6 text-white h
     </div>
     <div className="bg-woodsmoke-900 p-1.5 rounded-full">
     <IconTool stroke={1.5}/>
-
     </div>
     <div className="bg-woodsmoke-900 p-1.5 rounded-full">
     <Indicator color="coral-red.5" offset={6} size={8} processing>
